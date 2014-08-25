@@ -25,7 +25,8 @@ Classification was then based on these features, and was a blend of various mode
 * SVM Classifier fitted with SGD and loop-sampling to optimize area under ROC curve (sofia-ml)
 * SVM Classifier fitted with SGD, fitted on power-transformed repeattrips (sofia-ml)
 * Quantile Regression (vowpal wabbit) (this was mainly based on triskelions features)
-These models were the blended again using Gradient Boosting, trained on a holdout set of the training data.
+
+These models were then blended again using Gradient Boosting, trained on a holdout set of the training data.
 
 ## To recreate the submission
 
